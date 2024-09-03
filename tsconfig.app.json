@@ -28,7 +28,9 @@
       "app/*":["app/*"],
       "shared/*":["shared/*"],
       "widgets/*":["widgets/*"]
-    }
+    },
+
+    "types":  ["@testing-library/jest-dom"],
   },
-  "include": ["src"]
+  "include": ["src" ]
 }

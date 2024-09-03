@@ -1,5 +1,10 @@
 import { AppRouter } from './Providers/AppRouter';
+import { AppStore } from './Providers/AppStore';
 
 export const App = () => {
-  return <AppRouter />;
+  return (
+    <AppStore>
+      <AppRouter />
+    </AppStore>
+  );
 };
